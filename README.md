@@ -10,7 +10,7 @@ Custom aircraft markers for Virtual Radar Server (a.k.a VRS). This plugin adds n
 - Activate de plugin by adding a new entry in the Custom Content Plugin options, pointing out the .JS file and \Web folder.
 - Enjoy!
 
-##Acknowledgment (Agradecimentos)
+##Acknowledgments
 This project was only possible thanks to the invaluable help of many individuals and communities, especially the creator of the VRS, Andrew Whewell, always solicitous in [his forum](https://forum.virtualradarserver.co.uk/); Andrew Hill, whose [flights.hillhome.org](http://flights.hillhome.org/) site inspired me deeply; and all of the [ADS-B Brasil](http://bradsb.com/forum/index.php) community, including Ramon Martins and Jaime Hempke, which together maintain the excellent site [TrafegoAereo.com](http://trafegoaereo.com/).
 
 ##Contributions
