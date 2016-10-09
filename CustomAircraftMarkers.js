@@ -49,7 +49,7 @@
 					normalFileName: 'M-Type-GLFx.png',
 					selectedFileName: 'M-Type-GLFx-Selected.png',
 					size: { width: 40, height: 40 },
-					matches: function(/** VRS.Aircraft */ aircraft) { return  aircraft.wakeTurbulenceCat.val === VRS.WakeTurbulenceCategory.Medium && aircraft.countEngines.val === '2' && aircraft.engineType.val === VRS.EngineType.Jet && aircraft.modelIcao.val === 'G150' || aircraft.modelIcao.val === 'C560' || aircraft.modelIcao.val === 'C650' || aircraft.modelIcao.val === 'GALX' || aircraft.modelIcao.val === 'C750' || aircraft.modelIcao.val === 'CL30' || aircraft.modelIcao.val === 'CL35' || aircraft.modelIcao.val === 'CL60' && aircraft.isMlat.val }
+					matches: function(/** VRS.Aircraft */ aircraft) { return  aircraft.wakeTurbulenceCat.val === VRS.WakeTurbulenceCategory.Medium && aircraft.countEngines.val === '2' && aircraft.engineType.val === VRS.EngineType.Jet && aircraft.isMlat.val && aircraft.modelIcao.val === 'G150' || aircraft.modelIcao.val === 'C560' || aircraft.modelIcao.val === 'C650' || aircraft.modelIcao.val === 'GALX' || aircraft.modelIcao.val === 'C750' || aircraft.modelIcao.val === 'CL30' || aircraft.modelIcao.val === 'CL35' || aircraft.modelIcao.val === 'CL60' }
 				}));
 
 				VRS.globalOptions.aircraftMarkers.unshift(new VRS.AircraftMarker({
@@ -70,7 +70,7 @@
 					normalFileName: 'M-WTC-Medium-2-T-Jet.png',
 					selectedFileName: 'M-WTC-Medium-2-T-Jet-Selected.png',
 					size: { width: 40, height: 40 },
-					matches: function(/** VRS.Aircraft */ aircraft) { return aircraft.wakeTurbulenceCat.val === VRS.WakeTurbulenceCategory.Medium && aircraft.countEngines.val === '2' && aircraft.engineType.val === VRS.EngineType.Jet && aircraft.modelIcao.val === 'GLEX' && aircraft.isMlat.val }
+					matches: function(/** VRS.Aircraft */ aircraft) { return aircraft.wakeTurbulenceCat.val === VRS.WakeTurbulenceCategory.Medium && aircraft.countEngines.val === '2' && aircraft.engineType.val === VRS.EngineType.Jet && aircraft.isMlat.val && aircraft.modelIcao.val === 'GLEX' }
 				}));
 
 				VRS.globalOptions.aircraftMarkers.unshift(new VRS.AircraftMarker({
@@ -98,14 +98,14 @@
                     normalFileName: 'M-Type-A340.png',
                     selectedFileName: 'M-Type-A340-Selected.png',
                     size: { width: 60, height: 60 },
-                    matches: function(/** VRS.Aircraft */ aircraft) { return  aircraft.wakeTurbulenceCat.val === VRS.WakeTurbulenceCategory.Heavy && aircraft.countEngines.val === '4' && aircraft.engineType.val === VRS.EngineType.Jet && aircraft.modelIcao.val === 'A342' || aircraft.modelIcao.val === 'A343' || aircraft.modelIcao.val === 'A345' || aircraft.modelIcao.val === 'A346' || aircraft.modelIcao.val === 'B703' || aircraft.modelIcao.val === 'DC85' || aircraft.modelIcao.val === 'DC86' || aircraft.modelIcao.val === 'DC87' && aircraft.isMlat.val }
+                    matches: function(/** VRS.Aircraft */ aircraft) { return  aircraft.wakeTurbulenceCat.val === VRS.WakeTurbulenceCategory.Heavy && aircraft.countEngines.val === '4' && aircraft.engineType.val === VRS.EngineType.Jet && aircraft.isMlat.val && aircraft.modelIcao.val === 'A342' || aircraft.modelIcao.val === 'A343' || aircraft.modelIcao.val === 'A345' || aircraft.modelIcao.val === 'A346' || aircraft.modelIcao.val === 'B703' || aircraft.modelIcao.val === 'DC85' || aircraft.modelIcao.val === 'DC86' || aircraft.modelIcao.val === 'DC87' }
                 }));
 
                 VRS.globalOptions.aircraftMarkers.unshift(new VRS.AircraftMarker({
                     normalFileName: 'M-Type-A380.png',
                     selectedFileName: 'M-Type-A380-Selected.png',
                     size: { width: 60, height: 60 },
-                    matches: function(/** VRS.Aircraft */ aircraft) { return  aircraft.wakeTurbulenceCat.val === VRS.WakeTurbulenceCategory.Heavy && aircraft.countEngines.val === '4' && aircraft.engineType.val === VRS.EngineType.Jet && aircraft.modelIcao.val === 'A124' || aircraft.modelIcao.val === 'A380' || aircraft.modelIcao.val === 'A388' && aircraft.isMlat.val }
+                    matches: function(/** VRS.Aircraft */ aircraft) { return  aircraft.wakeTurbulenceCat.val === VRS.WakeTurbulenceCategory.Heavy && aircraft.countEngines.val === '4' && aircraft.engineType.val === VRS.EngineType.Jet && aircraft.isMlat.val && aircraft.modelIcao.val === 'A124' || aircraft.modelIcao.val === 'A380' || aircraft.modelIcao.val === 'A388' }
                 }));
 
             }
