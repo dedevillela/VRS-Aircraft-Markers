@@ -2,7 +2,7 @@
 Custom aircraft markers for Virtual Radar Server (a.k.a VRS). This plugin adds new markers and also highlights MLAT tracked aircrafts with different marker colors. The following are custom aircraft markers currently available:
 - GLEX marker for the Bombardier Global Express, Gulfstream G-IV, V & VI, and the Dassault Falcon 2000 & 5X;
 - E135 marker for the Embraer ERJ-135 & 145;
-- E39 marker fo the Embraer KC-390.
+- E39 marker for the Embraer KC-390.
 
 ##Prerequisites
 - VRS installed and running;
