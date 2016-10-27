@@ -1,5 +1,7 @@
 # VRS-Aircraft-Markers [![MIT License](https://img.shields.io/badge/License-MIT-red.svg)](LICENSE) [![VRS version 2.4](https://img.shields.io/badge/VRS-v2.4-blue.svg)](http://virtualradarserver.co.uk/Download.aspx) [![Build Status](https://scrutinizer-ci.com/g/dedevillela/VRS-Country-Flags/badges/build.png?b=master)](https://scrutinizer-ci.com/g/dedevillela/VRS-Country-Flags/build-status/master) [![GitHub release](https://img.shields.io/github/release/dedevillela/VRS-Aircraft-Markers.svg)]()
-Custom aircraft markers for Virtual Radar Server (a.k.a VRS). This plugin adds new markers and also highlights MLAT tracked aircrafts with different marker colors.
+Custom aircraft markers for Virtual Radar Server (a.k.a VRS). This plugin adds new markers and also highlights MLAT tracked aircrafts with different marker colors. The following are custom aircraft markers currently available:
+- GLEX marker for the Bombardier Global family, Gulfstream Aerospace G-IV, V & VI, Embraer ERJ-135 & 145, and the Dassault Falcon 2000.
+- E39 marker fo the Embraer KC-390.
 
 ##Prerequisites
 - VRS installed and running
