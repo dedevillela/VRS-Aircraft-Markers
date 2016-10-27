@@ -82,14 +82,14 @@
 					matches: function(/** VRS.Aircraft */ aircraft) { return aircraft.wakeTurbulenceCat.val === VRS.WakeTurbulenceCategory.Medium && aircraft.countEngines.val === '4' && aircraft.engineType.val === VRS.EngineType.Turbo && aircraft.isMlat.val }
 				}));
 
-				/////////////////////////////////////////////////////
-            	/* WTC MEDIUM 2 JET (GLEX, GL5T, GLF4, GLF5, GLF6) */
-            	/////////////////////////////////////////////////////
+				//////////////////////////////////////////////
+            	/* GLEX, GL5T, GLF4, GLF5, GLF6, F2TH, FA5X */
+            	//////////////////////////////////////////////
 				VRS.globalOptions.aircraftMarkers.unshift(new VRS.AircraftMarker({
 					normalFileName: 'GLEX.png',
 					selectedFileName: 'GLEX-Selected.png',
 					size: { width: 40, height: 40 },
-					matches: function(/** VRS.Aircraft */ aircraft) { return aircraft.wakeTurbulenceCat.val === VRS.WakeTurbulenceCategory.Medium && aircraft.countEngines.val === '2' && aircraft.engineType.val === VRS.EngineType.Jet && aircraft.modelIcao.val === 'GLEX' || aircraft.modelIcao.val === 'GL5T' || aircraft.modelIcao.val === 'GLF4' || aircraft.modelIcao.val === 'GLF5' || aircraft.modelIcao.val === 'GLF6' || aircraft.modelIcao.val === 'E35L' || aircraft.modelIcao.val === 'E135' || aircraft.modelIcao.val === 'E145' || aircraft.modelIcao.val === 'F2TH' || aircraft.modelIcao.val === 'FA5X' && aircraft.modelIcao.val === 'F900' }
+					matches: function(/** VRS.Aircraft */ aircraft) { return aircraft.modelIcao.val === 'GLEX' || aircraft.modelIcao.val === 'GL5T' || aircraft.modelIcao.val === 'GLF4' || aircraft.modelIcao.val === 'GLF5' || aircraft.modelIcao.val === 'GLF6' || aircraft.modelIcao.val === 'F2TH' || aircraft.modelIcao.val === 'FA5X' }
 				}));
 
 				////////////////////////////////////////////////////////////
@@ -102,6 +102,26 @@
 					//matches: function(/** VRS.Aircraft */ aircraft) { return aircraft.isMlat.val && aircraft.wakeTurbulenceCat.val === VRS.WakeTurbulenceCategory.Medium && aircraft.countEngines.val === '2' && aircraft.engineType.val === VRS.EngineType.Jet && aircraft.modelIcao.val === 'GLEX' || aircraft.modelIcao.val === 'GL5T' || aircraft.modelIcao.val === 'GLF4' || aircraft.modelIcao.val === 'GLF5' || aircraft.modelIcao.val === 'GLF6' || aircraft.modelIcao.val === 'E35L' aircraft.modelIcao.val === 'E135' aircraft.modelIcao.val === 'E145' }
 				//}));
 
+				/////////////////////////////
+            	/* E135, E35L, E145 - MLAT */
+            	/////////////////////////////
+				VRS.globalOptions.aircraftMarkers.unshift(new VRS.AircraftMarker({
+					normalFileName: 'M-E135.png',
+					selectedFileName: 'M-E135-Selected.png',
+					size: { width: 40, height: 40 },
+					matches: function(/** VRS.Aircraft */ aircraft) { return aircraft.modelIcao.val === 'E135' || aircraft.modelIcao.val === 'E35L' || aircraft.modelIcao.val === 'E145' && aircraft.isMlat.val}
+				}));
+
+				//////////////////////
+            	/* E135, E35L, E145 */
+            	//////////////////////
+				VRS.globalOptions.aircraftMarkers.unshift(new VRS.AircraftMarker({
+					normalFileName: 'E135.png',
+					selectedFileName: 'E135-Selected.png',
+					size: { width: 40, height: 40 },
+					matches: function(/** VRS.Aircraft */ aircraft) { return aircraft.modelIcao.val === 'E135' || aircraft.modelIcao.val === 'E35L' || aircraft.modelIcao.val === 'E145' }
+				}));
+
 				VRS.globalOptions.aircraftMarkers.unshift(new VRS.AircraftMarker({
 					normalFileName: 'M-WTC-Medium-4-Jet.png',
 					selectedFileName: 'M-WTC-Medium-4-Jet-Selected.png',
@@ -110,14 +130,24 @@
 				}));
 
 				///////////////////
-            	/* KC-390 MARKER */
+            	/* KC-390 MLAT */
             	///////////////////
+				VRS.globalOptions.aircraftMarkers.unshift(new VRS.AircraftMarker({
+					normalFileName: 'M-E39.png',
+					selectedFileName: 'M-E39-Selected.png',
+					size: { width: 40, height: 40 },
+					matches: function(/** VRS.Aircraft */ aircraft) { return aircraft.modelIcao.val === 'E39' && aircraft.isMlat.val }
+				}));
+
+				////////////
+            	/* KC-390 */
+            	////////////
 				VRS.globalOptions.aircraftMarkers.unshift(new VRS.AircraftMarker({
 					normalFileName: 'E39.png',
 					selectedFileName: 'E39-Selected.png',
 					size: { width: 40, height: 40 },
 					matches: function(/** VRS.Aircraft */ aircraft) { return aircraft.modelIcao.val === 'E39' }
-				}));
+				}));				
 
 				VRS.globalOptions.aircraftMarkers.unshift(new VRS.AircraftMarker({
 					normalFileName: 'M-WTC-Heavy-2-Jet.png',
