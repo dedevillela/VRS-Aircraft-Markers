@@ -9,7 +9,7 @@
 			normalFileName: 'M-Helicopter.png',
 			selectedFileName: 'M-Helicopter-Selected.png',
 			size: { width: 32, height: 32 },
-			matches: function(/** VRS.Aircraft */ aircraft) { return aircraft.wakeTurbulenceCat.val === VRS.WakeTurbulenceCategory.Light && aircraft.species.val === VRS.Species.Helicopter && aircraft.isMlat.val }
+			matches: function(/** VRS.Aircraft */ aircraft) { return aircraft.species.val === VRS.Species.Helicopter && aircraft.isMlat.val }
 		}));
 
             	/////////////////////////////
