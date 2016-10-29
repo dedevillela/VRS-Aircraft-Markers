@@ -9,7 +9,7 @@ Custom aircraft markers for Virtual Radar Server (a.k.a VRS). This plugin adds n
 - VRS Custom Content Plugin installed and enabled.
 
 ##Instructions
-- Clone or download the repo into a directory on the machine where VRS is running. Ensure you do not place the files under the Virtual Radar Server directory, since they could be overwritten on upgrades;
+- Clone or download the repo and unzip it into a directory on the machine where VRS is running. Ensure you do not place the files under the Virtual Radar Server directory, since they could be overwritten on upgrades;
 - Activate de plugin by adding a new entry in the Custom Content Plugin options, pointing out the "CustomAircraftMarkers.js" file.
 - Place the folder "\Web\images\markers" in your Web folder;
 - Enjoy!
