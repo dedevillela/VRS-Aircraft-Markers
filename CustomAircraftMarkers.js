@@ -65,12 +65,12 @@
 				///////////////////////////////////////////////////////////
 		        /* GALX, G200, CL30, CL35, CL60, C750, GLF2, GLF3 - MLAT */
 		        ///////////////////////////////////////////////////////////
-				VRS.globalOptions.aircraftMarkers.unshift(new VRS.AircraftMarker({
-					normalFileName: 'M-Type-GLFx.png',
-					selectedFileName: 'M-Type-GLFx-Selected.png',
-					size: { width: 40, height: 40 },
-					matches: function(/** VRS.Aircraft */ aircraft) { return aircraft.modelIcao.val === 'GALX' && aircraft.modelIcao.val === 'G200' && aircraft.modelIcao.val === 'CL30' && aircraft.modelIcao.val === 'CL35' && aircraft.modelIcao.val === 'CL60' && aircraft.modelIcao.val === 'C750' && aircraft.isMlat.val }
-				}));			
+				//VRS.globalOptions.aircraftMarkers.unshift(new VRS.AircraftMarker({
+					//normalFileName: 'M-Type-GLFx.png',
+					//selectedFileName: 'M-Type-GLFx-Selected.png',
+					//size: { width: 40, height: 40 },
+					//matches: function(/** VRS.Aircraft */ aircraft) { return aircraft.modelIcao.val === 'GALX' && aircraft.modelIcao.val === 'G200' && aircraft.modelIcao.val === 'CL30' && aircraft.modelIcao.val === 'CL35' && aircraft.modelIcao.val === 'CL60' && aircraft.modelIcao.val === 'C750' && aircraft.isMlat.val }
+				//}));			
 
 				///////////////////////////////////
 		        /* WTC MEDIUM 4 TURBOPROP - MLAT */
@@ -118,8 +118,8 @@
 					selectedFileName: 'E135-Selected.png',
 					size: { width: 40, height: 40 },
 					matches: function(/** VRS.Aircraft */ aircraft) { return aircraft.modelIcao.val === 'E135' || aircraft.modelIcao.val === 'E35L' || aircraft.modelIcao.val === 'E145' }
-				}));
-					
+				}));					
+				
 				///////////////////
 		        /* KC-390 - MLAT */
 		        ///////////////////
@@ -129,6 +129,7 @@
 					size: { width: 40, height: 40 },
 					matches: function(/** VRS.Aircraft */ aircraft) { return aircraft.modelIcao.val === 'E39' && aircraft.isMlat.val }
 				}));
+
 				////////////
 		        /* KC-390 */
 		        ////////////
@@ -137,7 +138,7 @@
 					selectedFileName: 'E39-Selected.png',
 					size: { width: 40, height: 40 },
 					matches: function(/** VRS.Aircraft */ aircraft) { return aircraft.modelIcao.val === 'E39' }
-				}));				
+				}));								
 				    
 				/////////////////////////////
 				/* WTC MEDIUM 4 JET - MLAT */
@@ -173,22 +174,22 @@
 				/* A340, B703 - MLAT */
 				///////////////////////
 				VRS.globalOptions.aircraftMarkers.unshift(new VRS.AircraftMarker({
-		                	normalFileName: 'M-Type-A340.png',
+		            normalFileName: 'M-Type-A340.png',
 					selectedFileName: 'M-Type-A340-Selected.png',
 					size: { width: 60, height: 60 },
-					matches: function(/** VRS.Aircraft */ aircraft) { return aircraft.modelIcao.val === 'A343' || aircraft.modelIcao.val === 'A345' || aircraft.modelIcao.val === 'A346' || aircraft.modelIcao.val === 'B703' || && aircraft.isMlat.val }
-		                }));
+					matches: function(/** VRS.Aircraft */ aircraft) { return aircraft.modelIcao.val === 'A343' || aircraft.modelIcao.val === 'A345' || aircraft.modelIcao.val === 'A346' || aircraft.modelIcao.val === 'B703' && aircraft.isMlat.val }
+		        }));
 
 		        /////////////////
 				/* A380 - MLAT */
 				/////////////////
 				VRS.globalOptions.aircraftMarkers.unshift(new VRS.AircraftMarker({
-		                	normalFileName: 'M-Type-A380.png',
+		            normalFileName: 'M-Type-A380.png',
 					selectedFileName: 'M-Type-A380-Selected.png',
 					size: { width: 60, height: 60 },
 					matches: function(/** VRS.Aircraft */ aircraft) { return aircraft.modelIcao.val === 'A124' || aircraft.modelIcao.val === 'A380' || aircraft.modelIcao.val === 'A388' && aircraft.isMlat.val }
-		                }));
-		            }
+		        }));
+		    }
         });
     }      
 </script>
