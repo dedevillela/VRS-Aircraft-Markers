@@ -189,6 +189,26 @@
 					size: { width: 60, height: 60 },
 					matches: function(/** VRS.Aircraft */ aircraft) { return aircraft.modelIcao.val === 'A124' || aircraft.modelIcao.val === 'A380' || aircraft.modelIcao.val === 'A388' && aircraft.isMlat.val }
 		        }));
+
+		        /////////////////
+				/* A225 - MLAT */
+				/////////////////
+				VRS.globalOptions.aircraftMarkers.unshift(new VRS.AircraftMarker({
+		            normalFileName: 'M-A225.png',
+					selectedFileName: 'M-A225-Selected.png',
+					size: { width: 60, height: 60 },
+					matches: function(/** VRS.Aircraft */ aircraft) { return aircraft.modelIcao.val === 'A225' && aircraft.isMlat.val }
+		        }));
+
+		        //////////
+				/* A225 */
+				//////////
+				VRS.globalOptions.aircraftMarkers.unshift(new VRS.AircraftMarker({
+		            normalFileName: 'A225.png',
+					selectedFileName: 'A225-Selected.png',
+					size: { width: 60, height: 60 },
+					matches: function(/** VRS.Aircraft */ aircraft) { return aircraft.modelIcao.val === 'A225' }
+		        }));
 		    }
         });
     }      
