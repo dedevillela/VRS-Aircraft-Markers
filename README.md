@@ -1,7 +1,7 @@
 # VRS-Aircraft-Markers ✈️ [![MIT License](https://img.shields.io/badge/License-MIT-red.svg)](LICENSE) [![VRS version 2.4](https://img.shields.io/badge/VRS-v2.4-blue.svg)](http://virtualradarserver.co.uk/Download.aspx) [![Build Status](https://scrutinizer-ci.com/g/dedevillela/VRS-Aircraft-Markers/badges/build.png?b=master)](https://scrutinizer-ci.com/g/dedevillela/VRS-Aircraft-Markers/build-status/master) [![GitHub release](https://img.shields.io/github/release/dedevillela/VRS-Aircraft-Markers.svg)]()
 Custom aircraft markers for Virtual Radar Server (a.k.a VRS). This plugin adds new markers and also highlights MLAT tracked aircrafts with different marker colors. The following are custom aircraft markers currently available:
 - A225 marker for the Antonov An-225 Mriya; ![alt tag](https://raw.githubusercontent.com/dedevillela/VRS-Aircraft-Markers/master/A225-Selected.png)
-- GLEX marker for the Bombardier Global Express, Gulfstream G-IV, V & VI, and the Dassault Falcon 2000 & 5X; ![alt tag](https://raw.githubusercontent.com/dedevillela/VRS-Aircraft-Markers/master/GLEX_marker.png)
+- GLEX marker for the Bombardier Global Express, Gulfstream G-IV, V & VI, and the Dassault Falcon 50, 900, 2000, 7X & 5X; ![alt tag](https://raw.githubusercontent.com/dedevillela/VRS-Aircraft-Markers/master/GLEX_marker.png)
 - E135 marker for the Embraer ERJ-135 & 145; ![alt tag](https://raw.githubusercontent.com/dedevillela/VRS-Aircraft-Markers/master/E135_marker.png)
 - E39 marker for the Embraer KC-390. ![alt tag](https://raw.githubusercontent.com/dedevillela/VRS-Aircraft-Markers/master/E39_marker.png)
 
