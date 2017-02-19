@@ -104,7 +104,7 @@
                         height: 40
                     },
                     matches: function( /** VRS.Aircraft */ aircraft) {
-                        return aircraft.modelIcao.val === 'GALX' || aircraft.modelIcao.val === 'G200' || aircraft.modelIcao.val === 'CL30' || aircraft.modelIcao.val === 'CL35' || aircraft.modelIcao.val === 'CL60' || aircraft.modelIcao.val === 'C680' || aircraft.modelIcao.val === 'C750' || aircraft.modelIcao.val === 'C56X' || aircraft.modelIcao.val === 'BE40'  || aircraft.modelIcao.val === 'LJ31' && aircraft.isMlat.val
+                        return aircraft.modelIcao.val === 'GALX' || aircraft.modelIcao.val === 'G200' || aircraft.modelIcao.val === 'CL30' || aircraft.modelIcao.val === 'CL35' || aircraft.modelIcao.val === 'CL60' || aircraft.modelIcao.val === 'C680' || aircraft.modelIcao.val === 'C750' || aircraft.modelIcao.val === 'C56X' || aircraft.modelIcao.val === 'BE40' || aircraft.modelIcao.val === 'LJ31' || aircraft.modelIcao.val === 'LJ45' || aircraft.modelIcao.val === 'LJ60' && aircraft.isMlat.val
                     }
                 }));
 
