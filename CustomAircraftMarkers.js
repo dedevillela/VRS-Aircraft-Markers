@@ -2,21 +2,7 @@
     if (VRS && VRS.globalDispatch && VRS.serverConfig) {
         VRS.globalDispatch.hook(VRS.globalEvent.bootstrapCreated, function(bootStrap) {
             if (VRS.globalOptions && VRS.globalOptions.aircraftMarkers) {
-                ///////////////////////
-                /* HELICOPTER - MLAT */
-                ///////////////////////
-                VRS.globalOptions.aircraftMarkers.unshift(new VRS.AircraftMarker({
-                    normalFileName: 'M-Helicopter.png',
-                    selectedFileName: 'M-Helicopter-Selected.png',
-                    size: {
-                        width: 32,
-                        height: 32
-                    },
-                    matches: function( /** VRS.Aircraft */ aircraft) {
-                        return aircraft.species.val === VRS.Species.Helicopter && aircraft.isMlat.val
-
-                    }
-                }));
+                
 
                 /////////////////////////////
                 /* WTC LIGHT 1 PROP - MLAT */
@@ -104,7 +90,7 @@
                         height: 40
                     },
                     matches: function( /** VRS.Aircraft */ aircraft) {
-                        return aircraft.modelIcao.val === 'GALX' || aircraft.modelIcao.val === 'G200' || aircraft.modelIcao.val === 'CL30' || aircraft.modelIcao.val === 'CL35' || aircraft.modelIcao.val === 'CL60' || aircraft.modelIcao.val === 'C680' || aircraft.modelIcao.val === 'C750' || aircraft.modelIcao.val === 'C56X' || aircraft.modelIcao.val === 'BE40' || aircraft.modelIcao.val === 'LJ31' || aircraft.modelIcao.val === 'LJ45' || aircraft.modelIcao.val === 'LJ60' && aircraft.isMlat.val
+                        return aircraft.modelIcao.val === 'GALX' || aircraft.modelIcao.val === 'G150' || aircraft.modelIcao.val === 'G200' || aircraft.modelIcao.val === 'CL30' || aircraft.modelIcao.val === 'CL35' || aircraft.modelIcao.val === 'CL60' || aircraft.modelIcao.val === 'C680' || aircraft.modelIcao.val === 'C750' || aircraft.modelIcao.val === 'C56X' || aircraft.modelIcao.val === 'BE40' || aircraft.modelIcao.val === 'LJ31' || aircraft.modelIcao.val === 'LJ45' || aircraft.modelIcao.val === 'LJ60' && aircraft.isMlat.val
                     }
                 }));
 
@@ -309,6 +295,22 @@
                     },
                     matches: function( /** VRS.Aircraft */ aircraft) {
                         return aircraft.modelIcao.val === 'A225'
+                    }
+                }));
+
+                ///////////////////////
+                /* HELICOPTER - MLAT */
+                ///////////////////////
+                VRS.globalOptions.aircraftMarkers.unshift(new VRS.AircraftMarker({
+                    normalFileName: 'M-Helicopter.png',
+                    selectedFileName: 'M-Helicopter-Selected.png',
+                    size: {
+                        width: 32,
+                        height: 32
+                    },
+                    matches: function( /** VRS.Aircraft */ aircraft) {
+                        return aircraft.modelIcao.val === 'AS50' || aircraft.modelIcao.val === 'AS65' || aircraft.modelIcao.val === 'B06' || aircraft.modelIcao.val === 'EC20' || aircraft.modelIcao.val === 'EC35' || aircraft.modelIcao.val === 'EC45' || aircraft.modelIcao.val === 'R22' || aircraft.modelIcao.val === 'R44' || aircraft.modelIcao.val === 'R66' || aircraft.modelIcao.val === 'S76' && aircraft.isMlat.val
+                        //return aircraft.species.val === VRS.Species.Helicopter && aircraft.isMlat.val
                     }
                 }));
             }
