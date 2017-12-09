@@ -5,23 +5,23 @@ Custom aircraft markers for Virtual Radar Server (a.k.a VRS). This plugin adds n
 - E135 marker for the Embraer ERJ-135 & 145; ![alt tag](https://raw.githubusercontent.com/dedevillela/VRS-Aircraft-Markers/master/E135_marker.png)
 - E39 marker for the Embraer KC-390. ![alt tag](https://raw.githubusercontent.com/dedevillela/VRS-Aircraft-Markers/master/E39_marker.png)
 
-##Prerequisites
+## Prerequisites
 - VRS installed and running;
 - VRS Custom Content Plugin installed and enabled.
 
-##Instructions
+## Instructions
 - Clone or download the repo and unzip it into a directory on the machine where VRS is running. Ensure you do not place the files under the Virtual Radar Server directory, since they could be overwritten on upgrades;
 - Activate de plugin by adding a new entry in the Custom Content Plugin options, pointing out the "CustomAircraftMarkers.js" file.
 - Place the folder "\Web\images\markers" in your Web folder;
 - Enjoy!
 
-##Acknowledgments
+## Acknowledgments
 This project was only possible thanks to the invaluable help of many individuals and communities, especially the creator of the VRS, Andrew Whewell, always solicitous in [![his forum](https://img.shields.io/badge/VRS-Forum-blue.svg)](https://forum.virtualradarserver.co.uk/); Andrew Hill, whose [![flights.hillhome.org](https://img.shields.io/badge/flights-hillhome.org-ADD6FF.svg)](http://flights.hillhome.org/) site inspired me deeply; and all of the [![ADS-B Brasil](https://img.shields.io/badge/ADS--B-Brasil-lightgrey.svg)](http://bradsb.com/forum/index.php) community, including Ramon Martins and Jaime Hempke, which together maintain the excellent site [![TrafegoAereo.com](https://img.shields.io/badge/Trafego-Aereo-yellowgreen.svg)](http://trafegoaereo.com/).
 
-##Contributions
+## Contributions
 Feel free to download and share these files, suggest corrections, or send requests for more aircraft markers, as I'm constantly updating this repository with new functionalities.
 
-##Other Projects
+## Other Projects
 
 [![VRS Operator Flags](https://img.shields.io/badge/VRS-Operator_Flags-red.svg)](https://github.com/dedevillela/VRS-Operator-Flags)
 
