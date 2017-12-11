@@ -1,9 +1,7 @@
-<script type="text/javascript">
-    if (VRS && VRS.globalDispatch && VRS.serverConfig) {
-        VRS.globalDispatch.hook(VRS.globalEvent.bootstrapCreated, function(bootStrap) {
-            if (VRS.globalOptions && VRS.globalOptions.aircraftMarkers) {
+if (VRS && VRS.globalDispatch && VRS.serverConfig) {
+	VRS.globalDispatch.hook(VRS.globalEvent.bootstrapCreated, function(bootStrap) {
+		if (VRS.globalOptions && VRS.globalOptions.aircraftMarkers) {
                 
-
                 /////////////////////////////
                 /* WTC LIGHT 1 PROP - MLAT */
                 /////////////////////////////
@@ -242,17 +240,6 @@
                     }
                 }));
 
-                ///////////////////////
-                /* A340, B703 - MLAT */
-                ///////////////////////
-                //VRS.globalOptions.aircraftMarkers.unshift(new VRS.AircraftMarker({
-                //normalFileName: 'M-Type-A340.png',
-                //selectedFileName: 'M-Type-A340-Selected.png',
-                //size: { width: 60, height: 60 },
-                //matches: function(/** VRS.Aircraft */ aircraft) { return aircraft.modelIcao.val === 'A343' || aircraft.modelIcao.val === 'A345' || aircraft.modelIcao.val === 'A346' || aircraft.modelIcao.val === 'B703' && aircraft.isMlat.val
-                //}
-                //}));
-
                 /////////////////
                 /* A380 - MLAT */
                 /////////////////
@@ -313,7 +300,6 @@
                         //return aircraft.species.val === VRS.Species.Helicopter && aircraft.isMlat.val
                     }
                 }));
-            }
-        });
-    }
-</script>
+		}
+	});
+}
