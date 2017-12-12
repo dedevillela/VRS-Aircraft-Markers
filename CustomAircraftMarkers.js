@@ -1,5 +1,5 @@
-if (VRS && VRS.globalDispatch && VRS.serverConfig) {
-	VRS.globalDispatch.hook(VRS.globalEvent.bootstrapCreated, function(bootStrap) {
+if (typeof VRS === "undefined" && VRS.globalDispatch && VRS.serverConfig) {
+	VRS.globalDispatch.hook(VRS.globalEvent.bootstrapCreated, function() {
 		if (VRS.globalOptions && VRS.globalOptions.aircraftMarkers) {
                 
                 /////////////////////////////
