@@ -176,7 +176,7 @@ if (typeof VRS === "undefined" && VRS.globalDispatch && VRS.serverConfig) {
                         height: 40
                     },
                     matches: function( /** VRS.Aircraft */ aircraft) {
-                        return aircraft.modelIcao.val === 'E39' && aircraft.isMlat.val
+                        return aircraft.modelIcao.val === 'KC39' && aircraft.isMlat.val
                     }
                 }));
 
@@ -191,7 +191,7 @@ if (typeof VRS === "undefined" && VRS.globalDispatch && VRS.serverConfig) {
                         height: 40
                     },
                     matches: function( /** VRS.Aircraft */ aircraft) {
-                        return aircraft.modelIcao.val === 'E39'
+                        return aircraft.modelIcao.val === 'KC39'
                     }
                 }));
 
