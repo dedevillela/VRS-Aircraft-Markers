@@ -9,5 +9,5 @@ notifications:
 node_js:
   - '4'
 branches:
-  except:
-- "/^v\\d+\\.\\d+\\.\\d+$/"
+  only:
+    - master
