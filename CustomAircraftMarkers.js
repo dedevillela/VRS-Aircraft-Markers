@@ -285,9 +285,9 @@ if (typeof VRS === "undefined" && VRS.globalDispatch && VRS.serverConfig) {
                     }
                 }));
 
-                ///////////////////////
-                /* HELICOPTER - MLAT */
-                ///////////////////////
+                ////////////////////////
+                /* HELICOPTERS - MLAT */
+                ////////////////////////
                 VRS.globalOptions.aircraftMarkers.unshift(new VRS.AircraftMarker({
                     normalFileName: 'M-Helicopter.png',
                     selectedFileName: 'M-Helicopter-Selected.png',
