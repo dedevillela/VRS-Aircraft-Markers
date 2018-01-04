@@ -1,15 +1,12 @@
-sudo: false
+sudo: required
 language: node_js
-
-notifications:
-  email:
-    on_success: never
-    on_failure: change
-
-branches:
-  only:
-    - master
-
 cache:
   directories:
     - node_modules
+notifications:
+  email: false
+node_js:
+  - '4'
+branches:
+  except:
+    - "/^v\\d+\\.\\d+\\.\\d+$/"
