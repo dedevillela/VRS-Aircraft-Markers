@@ -2,6 +2,7 @@
 if (typeof VRS === "undefined" && VRS.globalDispatch && VRS.serverConfig) {
 	VRS.globalDispatch.hook(VRS.globalEvent.bootstrapCreated, function() {
 		if (VRS.globalOptions && VRS.globalOptions.aircraftMarkers) {
+			
                 /////////////////////////////
                 /* WTC LIGHT 1 PROP - MLAT */
                 /////////////////////////////
