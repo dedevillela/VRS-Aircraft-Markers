@@ -1,9 +1,12 @@
-sudo: false
+sudo: required
 language: node_js
+cache:
+  directories:
+    - node_modules
 notifications:
   email: false
 node_js:
-  - '9'
+  - '4'
 branches:
-  only:
-  - master
+  except:
+    - "/^v\\d+\\.\\d+\\.\\d+$/"
