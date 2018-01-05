@@ -1,0 +1,15 @@
+{
+  "name": "VRS-Aircraft-Markers",
+  "version": "1.0.0",
+  "main": "CustomAircraftMarkers.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {},
+  "author": "Andre Villela",
+  "license": "MIT",
+  "description": "Custom aircraft markers for Virtual Radar Server (a.k.a VRS).",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dedevillela/VRS-Aircraft-Markers.git"
+  }
+}
