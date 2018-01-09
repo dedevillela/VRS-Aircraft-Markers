@@ -14,7 +14,7 @@ if (typeof VRS === "undefined" && VRS.globalDispatch && VRS.serverConfig) {
                         height: 32
                     },
                     matches: function( /** VRS.Aircraft */ aircraft) {
-                        return aircraft.wakeTurbulenceCat.val === VRS.WakeTurbulenceCategory.Light && aircraft.countEngines.val === '1' && aircraft.engineType.val === VRS.EngineType.Turbo && aircraft.isMlat.val
+                        return aircraft.wakeTurbulenceCat.val === VRS.WakeTurbulenceCategory.Light && aircraft.countEngines.val === '1' && aircraft.engineType.val === VRS.EngineType.Turbo && aircraft.isMlat.val;
                     }
                 }));
 
@@ -29,7 +29,7 @@ if (typeof VRS === "undefined" && VRS.globalDispatch && VRS.serverConfig) {
                         height: 40
                     },
                     matches: function( /** VRS.Aircraft */ aircraft) {
-                        return aircraft.wakeTurbulenceCat.val === VRS.WakeTurbulenceCategory.Light && aircraft.countEngines.val === '2' && aircraft.engineType.val === VRS.EngineType.Turbo && aircraft.isMlat.val
+                        return aircraft.wakeTurbulenceCat.val === VRS.WakeTurbulenceCategory.Light && aircraft.countEngines.val === '2' && aircraft.engineType.val === VRS.EngineType.Turbo && aircraft.isMlat.val;
                     }
                 }));
 
@@ -44,7 +44,7 @@ if (typeof VRS === "undefined" && VRS.globalDispatch && VRS.serverConfig) {
                         height: 40
                     },
                     matches: function( /** VRS.Aircraft */ aircraft) {
-                        return aircraft.wakeTurbulenceCat.val === VRS.WakeTurbulenceCategory.Medium && aircraft.countEngines.val === '2' && aircraft.engineType.val === VRS.EngineType.Turbo && aircraft.isMlat.val
+                        return aircraft.wakeTurbulenceCat.val === VRS.WakeTurbulenceCategory.Medium && aircraft.countEngines.val === '2' && aircraft.engineType.val === VRS.EngineType.Turbo && aircraft.isMlat.val;
                     }
                 }));
 
@@ -59,7 +59,7 @@ if (typeof VRS === "undefined" && VRS.globalDispatch && VRS.serverConfig) {
                         height: 40
                     },
                     matches: function( /** VRS.Aircraft */ aircraft) {
-                        return aircraft.wakeTurbulenceCat.val === VRS.WakeTurbulenceCategory.Light && aircraft.countEngines.val === '2' && aircraft.engineType.val === VRS.EngineType.Jet && aircraft.isMlat.val
+                        return aircraft.wakeTurbulenceCat.val === VRS.WakeTurbulenceCategory.Light && aircraft.countEngines.val === '2' && aircraft.engineType.val === VRS.EngineType.Jet && aircraft.isMlat.val;
                     }
                 }));
 
@@ -74,7 +74,7 @@ if (typeof VRS === "undefined" && VRS.globalDispatch && VRS.serverConfig) {
                         height: 40
                     },
                     matches: function( /** VRS.Aircraft */ aircraft) {
-                        return aircraft.wakeTurbulenceCat.val === VRS.WakeTurbulenceCategory.Medium && aircraft.countEngines.val === '2' && aircraft.engineType.val === VRS.EngineType.Jet && aircraft.isMlat.val
+                        return aircraft.wakeTurbulenceCat.val === VRS.WakeTurbulenceCategory.Medium && aircraft.countEngines.val === '2' && aircraft.engineType.val === VRS.EngineType.Jet && aircraft.isMlat.val;
                     }
                 }));
 		
@@ -89,7 +89,7 @@ if (typeof VRS === "undefined" && VRS.globalDispatch && VRS.serverConfig) {
                         height: 40
                     },
                     matches: function( /** VRS.Aircraft */ aircraft) {
-                        return aircraft.modelIcao.val === 'GALX' || aircraft.modelIcao.val === 'G150' || aircraft.modelIcao.val === 'G200' || aircraft.modelIcao.val === 'CL30' || aircraft.modelIcao.val === 'CL35' || aircraft.modelIcao.val === 'CL60' || aircraft.modelIcao.val === 'C680' || aircraft.modelIcao.val === 'C750' || aircraft.modelIcao.val === 'C56X' || aircraft.modelIcao.val === 'BE40' || aircraft.modelIcao.val === 'LJ31' || aircraft.modelIcao.val === 'LJ45' || aircraft.modelIcao.val === 'LJ60' && aircraft.isMlat.val
+                        return aircraft.modelIcao.val === 'GALX' || aircraft.modelIcao.val === 'G150' || aircraft.modelIcao.val === 'G200' || aircraft.modelIcao.val === 'CL30' || aircraft.modelIcao.val === 'CL35' || aircraft.modelIcao.val === 'CL60' || aircraft.modelIcao.val === 'C680' || aircraft.modelIcao.val === 'C750' || aircraft.modelIcao.val === 'C56X' || aircraft.modelIcao.val === 'BE40' || aircraft.modelIcao.val === 'LJ31' || aircraft.modelIcao.val === 'LJ45' || aircraft.modelIcao.val === 'LJ60' && aircraft.isMlat.val;
                     }
                 }));
 
@@ -104,7 +104,7 @@ if (typeof VRS === "undefined" && VRS.globalDispatch && VRS.serverConfig) {
                         height: 40
                     },
                     matches: function( /** VRS.Aircraft */ aircraft) {
-                        return aircraft.wakeTurbulenceCat.val === VRS.WakeTurbulenceCategory.Medium && aircraft.countEngines.val === '4' && aircraft.engineType.val === VRS.EngineType.Turbo && aircraft.isMlat.val
+                        return aircraft.wakeTurbulenceCat.val === VRS.WakeTurbulenceCategory.Medium && aircraft.countEngines.val === '4' && aircraft.engineType.val === VRS.EngineType.Turbo && aircraft.isMlat.val;
                     }
                 }));
 
@@ -119,7 +119,7 @@ if (typeof VRS === "undefined" && VRS.globalDispatch && VRS.serverConfig) {
                         height: 40
                     },
                     matches: function( /** VRS.Aircraft */ aircraft) {
-                        return aircraft.modelIcao.val === 'GLEX' || aircraft.modelIcao.val === 'GL5T' || aircraft.modelIcao.val === 'GLF4' || aircraft.modelIcao.val === 'GLF5' || aircraft.modelIcao.val === 'GLF6' || aircraft.modelIcao.val === 'F2TH' || aircraft.modelIcao.val === 'FA5X' || aircraft.modelIcao.val === 'FA50' || aircraft.modelIcao.val === 'F900' || aircraft.modelIcao.val === 'FA7X' && aircraft.isMlat.val
+                        return aircraft.modelIcao.val === 'GLEX' || aircraft.modelIcao.val === 'GL5T' || aircraft.modelIcao.val === 'GLF4' || aircraft.modelIcao.val === 'GLF5' || aircraft.modelIcao.val === 'GLF6' || aircraft.modelIcao.val === 'F2TH' || aircraft.modelIcao.val === 'FA5X' || aircraft.modelIcao.val === 'FA50' || aircraft.modelIcao.val === 'F900' || aircraft.modelIcao.val === 'FA7X' && aircraft.isMlat.val;
                     }
                 }));
                 ////////////////////////////////////////////////////////////////
@@ -133,7 +133,7 @@ if (typeof VRS === "undefined" && VRS.globalDispatch && VRS.serverConfig) {
                         height: 40
                     },
                     matches: function( /** VRS.Aircraft */ aircraft) {
-                        return aircraft.modelIcao.val === 'GLEX' || aircraft.modelIcao.val === 'GL5T' || aircraft.modelIcao.val === 'GLF4' || aircraft.modelIcao.val === 'GLF5' || aircraft.modelIcao.val === 'GLF6' || aircraft.modelIcao.val === 'F2TH' || aircraft.modelIcao.val === 'FA5X' || aircraft.modelIcao.val === 'FA7X' || aircraft.modelIcao.val === 'FA50' || aircraft.modelIcao.val === 'F900'
+                        return aircraft.modelIcao.val === 'GLEX' || aircraft.modelIcao.val === 'GL5T' || aircraft.modelIcao.val === 'GLF4' || aircraft.modelIcao.val === 'GLF5' || aircraft.modelIcao.val === 'GLF6' || aircraft.modelIcao.val === 'F2TH' || aircraft.modelIcao.val === 'FA5X' || aircraft.modelIcao.val === 'FA7X' || aircraft.modelIcao.val === 'FA50' || aircraft.modelIcao.val === 'F900';
                     }
                 }));
 
@@ -148,7 +148,7 @@ if (typeof VRS === "undefined" && VRS.globalDispatch && VRS.serverConfig) {
                         height: 40
                     },
                     matches: function( /** VRS.Aircraft */ aircraft) {
-                        return aircraft.modelIcao.val === 'E135' || aircraft.modelIcao.val === 'E35L' || aircraft.modelIcao.val === 'E145' && aircraft.isMlat.val
+                        return aircraft.modelIcao.val === 'E135' || aircraft.modelIcao.val === 'E35L' || aircraft.modelIcao.val === 'E145' && aircraft.isMlat.val;
                     }
                 }));
                 //////////////////////
@@ -162,7 +162,7 @@ if (typeof VRS === "undefined" && VRS.globalDispatch && VRS.serverConfig) {
                         height: 40
                     },
                     matches: function( /** VRS.Aircraft */ aircraft) {
-                        return aircraft.modelIcao.val === 'E135' || aircraft.modelIcao.val === 'E35L' || aircraft.modelIcao.val === 'E145'
+                        return aircraft.modelIcao.val === 'E135' || aircraft.modelIcao.val === 'E35L' || aircraft.modelIcao.val === 'E145';
                     }
                 }));
 
@@ -177,7 +177,7 @@ if (typeof VRS === "undefined" && VRS.globalDispatch && VRS.serverConfig) {
                         height: 40
                     },
                     matches: function( /** VRS.Aircraft */ aircraft) {
-                        return aircraft.modelIcao.val === 'KC39' && aircraft.isMlat.val
+                        return aircraft.modelIcao.val === 'KC39' && aircraft.isMlat.val;
                     }
                 }));
 
@@ -192,7 +192,7 @@ if (typeof VRS === "undefined" && VRS.globalDispatch && VRS.serverConfig) {
                         height: 40
                     },
                     matches: function( /** VRS.Aircraft */ aircraft) {
-                        return aircraft.modelIcao.val === 'KC39'
+                        return aircraft.modelIcao.val === 'KC39';
                     }
                 }));
 
@@ -207,7 +207,7 @@ if (typeof VRS === "undefined" && VRS.globalDispatch && VRS.serverConfig) {
                         height: 40
                     },
                     matches: function( /** VRS.Aircraft */ aircraft) {
-                        return aircraft.wakeTurbulenceCat.val === VRS.WakeTurbulenceCategory.Medium && aircraft.countEngines.val === '4' && aircraft.engineType.val === VRS.EngineType.Jet && aircraft.isMlat.val
+                        return aircraft.wakeTurbulenceCat.val === VRS.WakeTurbulenceCategory.Medium && aircraft.countEngines.val === '4' && aircraft.engineType.val === VRS.EngineType.Jet && aircraft.isMlat.val;
                     }
                 }));
 
@@ -222,7 +222,7 @@ if (typeof VRS === "undefined" && VRS.globalDispatch && VRS.serverConfig) {
                         height: 40
                     },
                     matches: function( /** VRS.Aircraft */ aircraft) {
-                        return aircraft.wakeTurbulenceCat.val === VRS.WakeTurbulenceCategory.Heavy && aircraft.countEngines.val === '2' && aircraft.engineType.val === VRS.EngineType.Jet && aircraft.isMlat.val
+                        return aircraft.wakeTurbulenceCat.val === VRS.WakeTurbulenceCategory.Heavy && aircraft.countEngines.val === '2' && aircraft.engineType.val === VRS.EngineType.Jet && aircraft.isMlat.val;
                     }
                 }));
 
@@ -237,7 +237,7 @@ if (typeof VRS === "undefined" && VRS.globalDispatch && VRS.serverConfig) {
                         height: 60
                     },
                     matches: function( /** VRS.Aircraft */ aircraft) {
-                        return aircraft.wakeTurbulenceCat.val === VRS.WakeTurbulenceCategory.Heavy && aircraft.countEngines.val === '4' && aircraft.engineType.val === VRS.EngineType.Jet && aircraft.isMlat.val
+                        return aircraft.wakeTurbulenceCat.val === VRS.WakeTurbulenceCategory.Heavy && aircraft.countEngines.val === '4' && aircraft.engineType.val === VRS.EngineType.Jet && aircraft.isMlat.val;
                     }
                 }));
 
@@ -252,7 +252,7 @@ if (typeof VRS === "undefined" && VRS.globalDispatch && VRS.serverConfig) {
                         height: 60
                     },
                     matches: function( /** VRS.Aircraft */ aircraft) {
-                        return aircraft.modelIcao.val === 'A124' || aircraft.modelIcao.val === 'A380' || aircraft.modelIcao.val === 'A388' && aircraft.isMlat.val
+                        return aircraft.modelIcao.val === 'A124' || aircraft.modelIcao.val === 'A380' || aircraft.modelIcao.val === 'A388' && aircraft.isMlat.val;
                     }
                 }));
 
@@ -267,7 +267,7 @@ if (typeof VRS === "undefined" && VRS.globalDispatch && VRS.serverConfig) {
                         height: 60
                     },
                     matches: function( /** VRS.Aircraft */ aircraft) {
-                        return aircraft.modelIcao.val === 'A225' && aircraft.isMlat.val
+                        return aircraft.modelIcao.val === 'A225' && aircraft.isMlat.val;
                     }
                 }));
 
@@ -282,7 +282,7 @@ if (typeof VRS === "undefined" && VRS.globalDispatch && VRS.serverConfig) {
                         height: 60
                     },
                     matches: function( /** VRS.Aircraft */ aircraft) {
-                        return aircraft.modelIcao.val === 'A225'
+                        return aircraft.modelIcao.val === 'A225';
                     }
                 }));
 
@@ -297,7 +297,7 @@ if (typeof VRS === "undefined" && VRS.globalDispatch && VRS.serverConfig) {
                         height: 32
                     },
                     matches: function( /** VRS.Aircraft */ aircraft) {
-                        return aircraft.modelIcao.val === 'AS50' || aircraft.modelIcao.val === 'AS65' || aircraft.modelIcao.val === 'B06' || aircraft.modelIcao.val === 'EC20' || aircraft.modelIcao.val === 'EC35' || aircraft.modelIcao.val === 'EC45' || aircraft.modelIcao.val === 'R22' || aircraft.modelIcao.val === 'R44' || aircraft.modelIcao.val === 'R66' || aircraft.modelIcao.val === 'S76' && aircraft.isMlat.val
+                        return aircraft.modelIcao.val === 'AS50' || aircraft.modelIcao.val === 'AS65' || aircraft.modelIcao.val === 'B06' || aircraft.modelIcao.val === 'EC20' || aircraft.modelIcao.val === 'EC35' || aircraft.modelIcao.val === 'EC45' || aircraft.modelIcao.val === 'R22' || aircraft.modelIcao.val === 'R44' || aircraft.modelIcao.val === 'R66' || aircraft.modelIcao.val === 'S76' && aircraft.isMlat.val;
                         //return aircraft.species.val === VRS.Species.Helicopter && aircraft.isMlat.val
                     }
                 }));
