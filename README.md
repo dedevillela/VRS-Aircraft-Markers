@@ -1,4 +1,28 @@
-# VRS-Aircraft-Markers 🛩️ [![MIT License](https://img.shields.io/badge/License-MIT-red.svg)](LICENSE) [![VRS version 2.4](https://img.shields.io/badge/VRS-v2.4-blue.svg)](http://virtualradarserver.co.uk/Download.aspx) [![Scrutinizer](https://img.shields.io/scrutinizer/g/dedevillela/VRS-Aircraft-Markers.svg)](https://scrutinizer-ci.com/g/dedevillela/VRS-Aircraft-Markers/) [![Scrutinizer Build](https://img.shields.io/scrutinizer/build/g/dedevillela/VRS-Aircraft-Markers.svg)](https://scrutinizer-ci.com/g/dedevillela/VRS-Aircraft-Markers/build-status/master) [![GitHub release](https://img.shields.io/github/release/dedevillela/VRS-Aircraft-Markers.svg)](https://github.com/dedevillela/VRS-Aircraft-Markers/releases) 
+<h1 align="center">
+  VRS-Aircraft-Markers 🛩️ 
+</h1>
+
+<p align="center">
+  <a href="https://github.com/dedevillela/VRS-Aircraft-Markers/blob/master/LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-red.svg">
+  </a>
+  <a href="http://virtualradarserver.co.uk/Download.aspx">
+      <img src="https://img.shields.io/badge/VRS-v2.4-blue.svg">
+  </a>
+  <a href="https://scrutinizer-ci.com/g/dedevillela/VRS-Aircraft-Markers/">
+      <img src="https://img.shields.io/scrutinizer/g/dedevillela/VRS-Aircraft-Markers.svg">
+  </a>
+  <a href="https://scrutinizer-ci.com/g/dedevillela/VRS-Aircraft-Markers/build-status/master">
+      <img src="https://img.shields.io/scrutinizer/build/g/dedevillela/VRS-Aircraft-Markers.svg">
+  </a>
+  <a href="https://github.com/dedevillela/VRS-Aircraft-Markers/releases">
+      <img src="https://img.shields.io/github/release/dedevillela/VRS-Aircraft-Markers.svg">
+  </a>
+  <a href="https://saythanks.io/to/dedevillela">
+      <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg">
+  </a>
+</p>
+
 Custom aircraft markers for Virtual Radar Server (a.k.a VRS). This plugin adds new markers and also highlights MLAT tracked aircrafts with different marker colors. The following are custom aircraft markers currently available:
 - A225 marker for the Antonov An-225 Mriya; ![alt tag](https://raw.githubusercontent.com/dedevillela/VRS-Aircraft-Markers/master/A225-Selected.png)
 - GLEX marker for the Bombardier Global Express, Gulfstream G-IV, V & VI, and the Dassault Falcon 50, 900, 2000, 7X & 5X; ![alt tag](https://raw.githubusercontent.com/dedevillela/VRS-Aircraft-Markers/master/GLEX_marker.png)
