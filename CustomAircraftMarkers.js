@@ -170,8 +170,8 @@ if (typeof VRS === "undefined" && VRS.globalDispatch && VRS.serverConfig) {
                 /* KC-390 - MLAT */
                 ///////////////////
                 VRS.globalOptions.aircraftMarkers.unshift(new VRS.AircraftMarker({
-                    normalFileName: 'M-E39.png',
-                    selectedFileName: 'M-E39-Selected.png',
+                    normalFileName: 'M-KC39.png',
+                    selectedFileName: 'M-KC39-Selected.png',
                     size: {
                         width: 40,
                         height: 40
@@ -185,8 +185,8 @@ if (typeof VRS === "undefined" && VRS.globalDispatch && VRS.serverConfig) {
                 /* KC-390 */
                 ////////////
                 VRS.globalOptions.aircraftMarkers.unshift(new VRS.AircraftMarker({
-                    normalFileName: 'E39.png',
-                    selectedFileName: 'E39-Selected.png',
+                    normalFileName: 'KC39.png',
+                    selectedFileName: 'KC39-Selected.png',
                     size: {
                         width: 40,
                         height: 40
