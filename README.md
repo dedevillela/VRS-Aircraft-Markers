@@ -27,7 +27,7 @@ Custom aircraft markers for Virtual Radar Server (a.k.a VRS). This plugin adds n
 - A225 marker for the Antonov An-225 Mriya; ![alt tag](https://raw.githubusercontent.com/dedevillela/VRS-Aircraft-Markers/master/A225-Selected.png)
 - GLEX marker for the Bombardier Global Express, Gulfstream G-IV, V & VI, and the Dassault Falcon 50, 900, 2000, 7X & 5X; ![alt tag](https://raw.githubusercontent.com/dedevillela/VRS-Aircraft-Markers/master/GLEX_marker.png)
 - E135 marker for the Embraer ERJ-135 & 145; ![alt tag](https://raw.githubusercontent.com/dedevillela/VRS-Aircraft-Markers/master/E135_marker.png)
-- E39 marker for the Embraer KC-390. ![alt tag](https://raw.githubusercontent.com/dedevillela/VRS-Aircraft-Markers/master/E39_marker.png)
+- KC39 marker for the Embraer KC-390. ![alt tag](https://raw.githubusercontent.com/dedevillela/VRS-Aircraft-Markers/master/E39_marker.png)
 
 ## Prerequisites
 - VRS installed and running;
@@ -35,8 +35,7 @@ Custom aircraft markers for Virtual Radar Server (a.k.a VRS). This plugin adds n
 
 ## Instructions
 - Clone or download the repo and unzip it into a directory on the machine where VRS is running. Ensure you do not place the files under the Virtual Radar Server directory, since they could be overwritten on upgrades;
-- Edit the file "CustomAircraftMarkers.js", placing the <script> tag in the very first line of code, and the closing tag </script> on the last line as well;
-- Activate the plugin by adding a new entry in the Custom Content Plugin options, pointing out the "CustomAircraftMarkers.js" file.
+- Activate the plugin by adding a new entry in the Custom Content Plugin options, pointing out the "CustomAircraftMarkers.html" file.
 - Place the folder "\Web\images\markers" in your Web folder;
 - Enjoy!
 
