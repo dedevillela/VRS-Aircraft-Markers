@@ -18,6 +18,9 @@
   <a href="https://github.com/dedevillela/VRS-Aircraft-Markers/releases">
       <img src="https://img.shields.io/github/release/dedevillela/VRS-Aircraft-Markers.svg">
   </a>
+  <a href="#">
+  <img src="https://views.whatilearened.today/views/github/dedevillela/VRS-Operator-Flags.svg">
+  </a>
   <a href="https://saythanks.io/to/dedevillela">
       <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg">
   </a>
