@@ -92,6 +92,36 @@ if (typeof VRS === "undefined" && VRS.globalDispatch && VRS.serverConfig) {
                         return aircraft.modelIcao.val === 'GALX' || aircraft.modelIcao.val === 'G150' || aircraft.modelIcao.val === 'G200' || aircraft.modelIcao.val === 'CL30' || aircraft.modelIcao.val === 'CL35' || aircraft.modelIcao.val === 'CL60' || aircraft.modelIcao.val === 'C680' || aircraft.modelIcao.val === 'C750' || aircraft.modelIcao.val === 'C56X' || aircraft.modelIcao.val === 'BE40' || aircraft.modelIcao.val === 'LJ31' || aircraft.modelIcao.val === 'LJ45' || aircraft.modelIcao.val === 'LJ60' && aircraft.isMlat.val;
                     }
                 }));
+			
+		/////////////////////////////////////////
+                /* LJ23, LJ24, LJ25, LJ35, LJ36 - MLAT */
+                /////////////////////////////////////////
+                VRS.globalOptions.aircraftMarkers.unshift(new VRS.AircraftMarker({
+                    normalFileName: 'M-LR30.png',
+                    selectedFileName: 'M-LR30-Selected.png',
+                    size: {
+                        width: 40,
+                        height: 40
+                    },
+                    matches: function( /** VRS.Aircraft */ aircraft) {
+                        return aircraft.modelIcao.val === 'LJ23' || aircraft.modelIcao.val === 'LJ24' || aircraft.modelIcao.val === 'LJ25' || aircraft.modelIcao.val === 'LJ35' || aircraft.modelIcao.val === 'LJ36' && aircraft.isMlat.val;
+                    }
+                }));
+			
+		//////////////////////////////////
+                /* LJ23, LJ24, LJ25, LJ35, LJ36 */
+                //////////////////////////////////
+                VRS.globalOptions.aircraftMarkers.unshift(new VRS.AircraftMarker({
+                    normalFileName: 'LR30.png',
+                    selectedFileName: 'LR30-Selected.png',
+                    size: {
+                        width: 40,
+                        height: 40
+                    },
+                    matches: function( /** VRS.Aircraft */ aircraft) {
+                        return aircraft.modelIcao.val === 'LJ23' || aircraft.modelIcao.val === 'LJ24' || aircraft.modelIcao.val === 'LJ25' || aircraft.modelIcao.val === 'LJ35' || aircraft.modelIcao.val === 'LJ36';
+                    }
+                }));
 
                 ///////////////////////////////////
                 /* WTC MEDIUM 4 TURBOPROP - MLAT */
